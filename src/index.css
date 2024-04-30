@@ -1,13 +1,123 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image:url('login-background.jpg') ;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(139,134,174,255)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.main{
+  display: flex;
+  flex-direction: row;
 }
+
+h2{
+  font-size: xx-large;
+}
+
+h4{
+  padding-left: 29%;
+  padding-top: 5%;
+}
+
+.appname{
+  font-family: 'Lemon', serif;
+}
+
+.sometxt{
+  color: rgb(117, 117, 117);
+  width: 30vw;
+  /* height: 78.15vh; */
+  height: 100vh;
+  text-align: left;
+  padding-top: 5%;
+  font-size: 150%;
+  color: white;
+  padding-left: 10%;
+}
+
+
+.bckcolor{
+  background-color: rgb(66, 66, 66);
+  width:23vw;
+  opacity: 90%;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: 2s;
+}
+
+.bckcolor:hover{
+  scale: 1.1;
+  border-radius: 50px 10px 50px 10px/10px 50px 10px 50px;
+}
+
+.emailid{
+  padding-right: 13.7%;
+}
+
+.fstnm{
+padding-right: 13.6%;
+}
+.password{
+  padding-right: 2.9%;
+}
+
+.phoneno{
+padding-right: 3.3%;
+}
+
+.space{
+  padding-left: 30px;
+  padding-top: 5%;
+}
+
+.fifrow{
+  padding-bottom: 20%;
+}
+
+.fstrow{
+  padding-top: 10%;
+}
+
+.x{
+  height: 35px;
+  border-radius: 15px;
+  border-width: 0px;
+}
+
+
+.buton{
+  background-color:rgb(255, 96, 96);
+   color: aliceblue; 
+  border-radius: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 41%;
+  margin-top: 7%;
+}
+
+.signforgot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  padding-bottom: 5%;
+  margin-top: 2%;
+}
+
+.forgot{
+  padding-right: 2%;  
+}
+
+.signopt{
+  padding-left: 2%;
+}
+
+.colorSignup{
+  color: rgb(0, 255, 213);
+}
+
